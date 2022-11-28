@@ -1,0 +1,96 @@
+#birthday{
+    margin-top:25px;
+    padding:0px;
+    
+    
+    }
+    .skills .skills-content .left .text{
+        font-size:20px;
+        font-weight: 400;
+    }
+    #birthday p{
+    
+            text-align: center;
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        
+    }
+    .counter_birthday {
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        height: 136px;
+    
+        font-family: sans-seif;
+        font-weight: 400;
+    }
+    .timer {
+        display: flex;
+        flex-direction: column;
+        margin-left:10px;
+        text-align: center;
+        justify-content: center;
+    
+    }
+    .b-text{
+           margin-top:10px;
+            font-size: 24px;
+            color: #12475a;
+            
+            font-style: italic;
+          
+    }
+    .clock {
+        width: 162px;
+        height: 85px;
+        display: flex;
+        border: 1px solid crimson;
+        font-size: 75px;
+        justify-content: center;
+        align-items: center;
+        color: crimson;
+        font-style: italic;
+        font-weight: 600;
+        transition: 2s;
+        border-radius: 10px;
+    }.clock:hover{
+        background-color: crimson;
+         color:#fff;
+         border:none;
+         cursor: progress;
+    }
+    @media(max-width:530px){
+        .clock{
+            width:70px;
+            height:60px;
+            font-size:32px;
+        }
+    }
+    @media(max-width:707px){
+        .clock{
+            width:70px;
+            height:60px;
+            font-size:32px;
+        }
+    }
+    @media(max-width:540px){
+        .skills .skills-content .left .text{
+            font-size:16px;
+            font-weight: 400;
+        }
+        table tr td{
+            font-size:14px;
+        }
+        .skills .skills-content .right span {
+            font-weight: 500;
+            font-size: 14px;
+        }
+    }
+    @media(max-width:450px){
+        #birthday p{
+            font-size:14px;
+        }
+    }
+    
